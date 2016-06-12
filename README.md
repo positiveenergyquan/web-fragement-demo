@@ -27,12 +27,13 @@
 
 #### 项目演示
 
-部署site-web到本地web服务器,可进行如下url的访问：
-访问site-web模块下的index.jsp-->http://localhost:8080/site-web/
-访问site-web-user模块下的Hello.java-->http://localhost:8080/site-web/hello
-访问site-web-user模块下SystemController.java-->http://localhost:8080/site-web/system/update
-访问site-web-finance模块下Finance.java-->http://localhost:8080/site-web/finance
-访问site-web-finance模块下FinanceController.java-->http://localhost:8080/site-web/finance_spring/test
+	部署site-web到本地web服务器,可进行如下url的访问：
+
+1. 访问site-web模块下的index.jsp-->http://localhost:8080/site-web/
+2. 访问site-web-user模块下的[Hello.java](./site-web-user/src/main/java/org/xdemo/example/site/web/user/controller/Hello.java)-->http://localhost:8080/site-web/hello
+3. 访问site-web-user模块下[SystemController.java](./site-web-user/src/main/java/org/xdemo/example/site/web/user/controller/SystemController.java)-->http://localhost:8080/site-web/system/update
+4. 访问site-web-finance模块下[Finance.java](./site-web-finance/src/main/java/org/xdemo/example/site/web/finace/controller/Finance.java)-->http://localhost:8080/site-web/finance
+5. 访问site-web-finance模块下[FinanceController.java](./site-web-finance/src/main/java/org/xdemo/example/site/web/finace/controller/FinanceController.java)-->http://localhost:8080/site-web/finance_spring/test
 
 #### web模块化使用的注意事项
 
