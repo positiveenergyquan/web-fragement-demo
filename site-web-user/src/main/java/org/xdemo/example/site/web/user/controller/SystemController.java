@@ -13,6 +13,10 @@ public class SystemController {
 
 	@Resource ConfigurableWebApplicationContext wac;
 	
+	/**
+	 * 更新web配置
+	 * @return
+	 */
 	@ResponseBody
 	@RequestMapping("update")
 	public String update(){

@@ -7,7 +7,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
+/**
+ * Servlet3.0注解配置
+ * @author casper
+ */
 @WebServlet(name="hello",urlPatterns="/hello")
 public class Hello extends HttpServlet{
 	

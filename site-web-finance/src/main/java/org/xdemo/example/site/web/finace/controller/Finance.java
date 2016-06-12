@@ -10,7 +10,10 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.xdemo.example.site.web.user.Service.HelloService;
 import org.xdemo.example.site.web.user.Service.HelloServiceImpl;
-
+/**
+ * Servlet3.0的注解配置方式
+ * @author casper
+ */
 @WebServlet(name="finance",urlPatterns="/finance")
 public class Finance extends HttpServlet{
 
